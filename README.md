@@ -11,3 +11,14 @@
 
 - Note
 	+ Please don't try any funny business like by-passing the file_manager or storing the complete (large) file in your own memory. The file manager we provided must be used for every access to file.
+
+# My modifications
+
+- run.sh
+	+ check if the testcase you are running exist in the Testcases folder or not.
+	+ makefile will do all the cleaning and making of binaries.
+
+- rtree.cpp
+	+ this files contain all the code to make rtree.
+	+ bulkload, insertion and pointQuery are the main function and all others are the helper functions.
+	+ Node class is used to define the structure of one node.
